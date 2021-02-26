@@ -96,7 +96,6 @@ footer a {color: rebeccapurple;}
 
 @media (max-width:767px) {
 
-    header {padding: 0;}
 
 
 
@@ -115,7 +114,6 @@ footer a {color: rebeccapurple;}
 @media (min-width:768px)and (max-width:991px) {
 
 
-    header {padding: 0;}
 
     .main-header {margin: 5px 20px;}
     .warpeer-area {margin: 350px 5px 0}
