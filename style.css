@@ -1,0 +1,128 @@
+* {
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {background-color: #222;}
+
+
+header {padding: 1em;
+font-family: cursive
+}
+
+.container {max-width: 1200px;margin: 0 auto;}
+
+.main-header {display: flex; justify-content: space-between;align-items: center;
+    text-align: center;margin: 15px 40px;
+ }
+
+    h2 {color: #DDD;font-size: 30px;cursor: pointer;}
+
+    .icon-header {color: #fff;font-size: 45px;cursor: pointer;}
+
+
+
+    .hero {background-image: url("img/gym.jpg");
+            background-position: right ;background-repeat: no-repeat;
+        background-size: cover;height: 800px;}
+
+        .warpeer{display: flex;}
+ 
+    
+
+.warpeer-area {display: flex;width: 300px;flex-direction: column;
+        height: auto;background-color:#ef7a2e;
+        margin: 400px 30px 0; ;padding: 20px;}
+
+    .img-area {
+
+        border-radius: 50%;width: 80px;height: 80px;
+        background-position: center;
+        background-size: cover;
+        border: 2px solid #999 ;
+}
+
+
+.warpeer-area:nth-child(1) .img-area {
+
+
+    background-image: url("img/1.jpg");
+}
+.warpeer-area:nth-child(2) .img-area {
+
+    background-image: url("img/2.png");
+}
+
+    .warpeer-area:nth-child(3) .img-area {
+        background-image: url("img/3.jpg");
+    }
+
+        .warpeer-area:nth-child(4) .img-area {
+            background-image: url("img/4.jpg");
+        }
+
+
+        .img-text {color: #fff;}
+
+        .text-area {text-transform: uppercase;line-height: 50px; }
+
+        .img-text p {line-height: 25px;}
+
+
+        h5 {text-align: center;
+            padding: 1em 0;color: #fff;font-size: 20px;font-family: Arial, Helvetica, sans-serif}
+
+        a {color: #fff;}
+
+
+        .main-footer {text-align: center;height: auto;}
+
+        .main-footer p {color: #fff;padding-top:30px  ;}
+
+
+footer {display: block;text-align: center;margin-top: 50px;}
+
+footer span {color: #fff;}
+
+footer a {color: rebeccapurple;}
+
+
+
+
+@media (max-width:767px) {
+
+    header {padding: 0;}
+
+
+
+    .main-header {margin: 5px 20px;}
+
+    .hero {height: 900px;background-position: right;}
+
+    .warpeer {flex-wrap: wrap;justify-content: space-around;}
+
+    .warpeer-area {width: 250px;   margin: 170px 10px 0;}
+
+
+}
+
+
+@media (min-width:768px)and (max-width:991px) {
+
+
+    header {padding: 0;}
+
+    .main-header {margin: 5px 20px;}
+    .warpeer-area {margin: 350px 5px 0}
+
+
+}
+
+
+
+
